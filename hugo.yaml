@@ -132,9 +132,15 @@ params:
     title: "Leticia Estética"
     subtitle: "Tratamentos faciais e corporais"
     content: "Aqui você encontra os melhores tratamentos estéticos para cuidar da sua beleza e saúde. Rua Doutor Ranulpho Mourão, 348 - Retiro Velho - Leme, SP | CEP 13.613-005"
-    image: /images/leticia-place.jpg
+    image: /images/leticia.jpg
     bottomImage:
       enable: false
+    button:
+      enable: true
+      name: "Agendar horário"
+      url: "https://api.whatsapp.com/send/?phone=5519997815460&text&type=phone_number&app_absent=0"
+      download: false
+      newPage: true
     # roundImage: true # Make hero image circular | default false
     # socialLinks:
     #   fontAwesomeIcons:
@@ -144,10 +150,8 @@ params:
   # About
   about:
     enable: true
-    title: "Sobre nós"
-    image: "/images/leticia.jpg"
-    content: |-
-      A Letícia Estética é um espaço dedicado a beleza e bem-estar. Oferecemos tratamentos faciais e corporais, com profissionais qualificados e produtos de alta qualidade. Venha nos conhecer e cuidar da sua beleza e saúde.
+    image: "/images/leticia-place.jpg"
+    content:  A Letícia Estética é um espaço dedicado a beleza e bem-estar. Oferecemos tratamentos faciais e corporais, com profissionais qualificados e produtos de alta qualidade. Venha nos conhecer e cuidar da sua beleza e saúde.
     skills:
       enable: true
       title: "Nossos tratamentos"
@@ -339,7 +343,7 @@ params:
 
   #Contact
   contact:
-    enable: true
+    enable: false
     title: "Entre em contato"
     content: "Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco."
     btnName: Whatsapp
