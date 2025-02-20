@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Letícia Estética"
 theme: theme
 
 outputs:
@@ -30,10 +30,10 @@ markup:
 
 Menus:
   main:
-    - identifier: gallery
-      name: Galeria
-      title: Galeria
-      url: /galeria
+    - identifier: 
+      name: 
+      title: 
+      url: /
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
@@ -54,8 +54,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Letícia Estética"
+  description: "Tratamentos faciais e corporais"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -110,8 +110,8 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Letícia Estética" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -119,62 +119,47 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
       disableContact: false
 
   # Hero
   hero:
     enable: true
-    intro: "Bem vindo a"
+    intro: "Bem vindo à"
     title: "Leticia Estética"
-    subtitle: "Seu bem estar em primeiro lugar"
-    content: "Aqui você encontra os melhores tratamentos estéticos para cuidar da sua beleza e saúde."
-    image: /images/hero.svg
+    subtitle: "Tratamentos faciais e corporais"
+    content: "Aqui você encontra os melhores tratamentos estéticos para cuidar da sua beleza e saúde. Rua Doutor Ranulpho Mourão, 348 - Retiro Velho - Leme, SP | CEP 13.613-005"
+    image: /images/leticia-place.jpg
     bottomImage:
-      enable: true
+      enable: false
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+    # socialLinks:
+    #   fontAwesomeIcons:
+    #     - icon: fab fa-instagram
+    #       url: https://example.com
 
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: "Sobre nós"
+    image: "/images/leticia.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      A Letícia Estética é um espaço dedicado a beleza e bem-estar. Oferecemos tratamentos faciais e corporais, com profissionais qualificados e produtos de alta qualidade. Venha nos conhecer e cuidar da sua beleza e saúde.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Nossos tratamentos"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Limpeza de pele"
+        - "Peeling"
+        - "Drenagem linfática"
+        - "Massagem modeladora"
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -239,7 +224,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -282,7 +267,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -304,7 +289,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -355,10 +340,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    title: "Entre em contato"
+    content: "Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco."
+    btnName: Whatsapp
+    btnLink: https://api.whatsapp.com/send/?phone=5519997815460&text&type=phone_number&app_absent=0
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -371,18 +356,15 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      instagram: https://www.instagram.com/leticia.estetica
+      facebook: https://www.facebook.com/leticiaestetica.fanpage/
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
@@ -397,11 +379,11 @@ params:
 
   # For translations
   terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
+    read: "Leia"
+    toc: "Tabela de conteúdo"
+    copyright: "Todos direitos reservados"
+    pageNotFound: "Pagina não encontrada"
+    emailText: "Você pode me enviar um email em"
 
   datesFormat:
     article: "Jan 2, 2006"
