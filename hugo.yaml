@@ -159,7 +159,10 @@ params:
         - "Limpeza de pele"
         - "Peeling"
         - "Drenagem linfática"
-        - "Massagem modeladora"
+        - "Microagulhamento"
+        - "Fototerapia"
+        - "Radiofrequência"
+        - "Mesonanoterapia"
 
   # Experience
   experience:
